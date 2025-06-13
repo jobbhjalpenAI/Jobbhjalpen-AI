@@ -20,7 +20,7 @@ jobs:
       - name: Upload static files
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .github/workflows  # Mappen där din index.html finns
+          path: ./
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
